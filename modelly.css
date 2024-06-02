@@ -21,6 +21,7 @@ body {
 table {
     width: 100%;
     border-collapse: collapse;
+    color: #12012b;
 }
 
 table, th, td {
@@ -29,11 +30,12 @@ table, th, td {
 
 th, td {
     padding: 8px;
-    background-color: #FCD400;
+    background-color: #AC75C2;
+    color: #12012b;
 }
 
 th {
-    background-color: #9B59B6;
+    background-color: #361A5C;
     color: aliceblue;
 }
 
