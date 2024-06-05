@@ -19,16 +19,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const tablesData = [
         {
             title: 'Modelly - Desenvolvedores', //MEMBROS MODELLY
-            headers: ['Equipe', 'Funções', 'Contrato', 'Salário'], // Adicione mais headers conforme necessário
+            headers: ['Equipe', 'Funções', 'Contrato', 'Salário','Salário Anual'], // Adicione mais headers conforme necessário
             rows: [
-                ['Pamela Miranda(Pamy)', 'Product Owner - UI Designer/Desenvolvedora Front End','PJ','R$4.254'],
-                ['Gabriel Santos(Gabs)', 'Scrum Master - Desenvolvedor Full-Stack','PJ','R$4.254'],
-                ['Gabriel Valentin(Redd)', 'Financeiro - UX Designer/ Desenvolvedor Full-Stack','PJ','R$4.254'],
-                ['Matheus Santos(Matt)', 'Desenvolvedor Back End','PJ','R$4.254'],
-                ['Giovanna Tavares(Gio)', 'UI Designer/Desenvolvedora de Banco de Dados','PJ','R$4.254'],
-                ['Ben-Hur(Ben)', 'Desenvolvedor Back End','PJ','R$4.254'],
-                ['João Lucas(Guiado por Deus)', 'Desenvolvedor Back End','PJ','R$4.254'],
-                ['Jhonnatan Gomes(Jhow)', 'Desenvolvedor Front End','PJ','R$4.254']
+                ['Pamela Miranda(Pamy)', 'Product Owner - UI Designer/Desenvolvedora Front End','PJ','R$5.554',''],
+                ['Gabriel Santos(Gabs)', 'Scrum Master - Desenvolvedor Full-Stack','PJ','R$5.554'],
+                ['Gabriel Valentin(Redd)', 'Financeiro - UX Designer/ Desenvolvedor Full-Stack','PJ','R$5.554'],
+                ['Matheus Morgado(Matt)', 'Desenvolvedor Back End','PJ','R$5.554'],
+                ['Giovanna Tavares(Gio)', 'UI Designer/Desenvolvedora de Banco de Dados','PJ','R$5.554'],
+                ['Ben-Hur(Ben)', 'Desenvolvedor Back End','PJ','R$5.554'],
+                ['João Lucas(Guiado por Deus)', 'Desenvolvedor Back End','PJ','R$5.554'],
+                ['Jhonnatan Gomes(Jhow)', 'Desenvolvedor Front End','PJ','R$5.554']
             ]
         },
         
@@ -52,17 +52,43 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             title:  'Projeção Financeira',
-            headers: ['Monetização', 'Descrição','Requisitos','Custo','Renda','Lucro'], // Adicione mais headers conforme necessário
+            headers: ['Monetização', 'Descrição'], // Adicione mais headers conforme necessário
+            rows:[
+                ['Feira de Arte(Stand Espaços):', 'Participação em feiras digitais periódicas que destacam produtos e oferecem promoções especiais. Estandes virtuais que permitem a navegação por espaços em 3D, proporcionando uma experiência de compra imersiva. Ferramentas de interação e negociação direta com os vendedores, permitindo a comunicação em tempo real.'],
+                ['Taxação por Venda', 'Cobrança de uma porcentagem de 7% sobre cada venda realizada na plataforma. Além disso, uma taxa de transação de 1% sobre o valor total da transação é aplicada, garantindo um fluxo de receita constante para a manutenção e melhoria dos serviços da plataforma.'],
+                ['Adsense (Anúncios)', 'Cobrança por Custo por Clique (CPC) para anúncios baseados em imagem ou Custo por Mil Impressões (CPM) para anúncios em vídeo. Essa funcionalidade permite aos artistas promoverem seus produtos dentro da plataforma, aumentando a visibilidade e as vendas.'],
+                ['Dashboard', 'Ferramentas de gestão de negócios que fornecem insights e análises sobre o desempenho das vendas, acompanhamento de estoque, e gestão financeira. Inclui sugestões de empreendedorismo personalizadas para ajudar os artistas a desenvolverem seus negócios, com funcionalidades que aumentam de acordo com cada plano de assinatura.'],
+                ['Eventos', 'Divulgação de eventos físicos e digitais, incluindo feiras de arte, exposições, e workshops. Estes eventos são promovidos na plataforma para atrair compradores e incentivar a participação dos artistas, criando oportunidades de networking e vendas.'],
+                ['Oficinas de Arte (Mentoria)', 'Oficinas de arte e mentorias oferecidas por artistas experientes. As opções variam desde oficinas gravadas disponíveis por um período determinado até oficinas ao vivo que oferecem interação direta. Os artistas podem melhorar suas habilidades e aprender novas técnicas, com acesso vitalício nos planos superiores.'],
+                ['Leilão de Arte', 'Leilões automáticos para a última peça de um artista, além de leilões organizados pela plataforma com a participação de múltiplos artistas. Os planos superiores incluem a opção de organizar leilões pessoais, oferecendo uma plataforma exclusiva para destacar e vender obras de arte com maior controle e personalização.']
+            ]
+        },
+        {
+            title: 'Planos Modelly - Artistas',
+            headers: ['Funcionalidades', 'Papel(Gratuito)', 'Pincel(Básico)', 'Bordado(Intermediário)', 'Escultura(Premium)'], // Adicione mais headers conforme necessário
             rows: [
-                ['Feira de Arte Online','', '',0,0,0],
-                ['Taxação por Venda','', '',0,0,0],
-                ['Adscence(Anuncios)','', '',0,0,0],
-                ['Dashboard','', '',0,0,0],
-                ['Eventos','', '',0,0,0],
-                ['Oficinas de Arte(Mentoria)','', '',0,0,0],
-                ['Leilão de Arte','', '',0,0,0]
-                
+                ['Feira de Arte(Stand Espaços):', '15 Espaços no Stand', '50 Espaços no Stand', '100 espaços no Stand', '200 Espaços no Stand'],
+                ['Oficinas de Arte', 'Não', 'Oficinas Gravadas(Período determinado)', 'Oficinas gravadas/Oficinas ao vivo(Período Determinado)', 'Oficinas gravadas/ao vivo(vitalício)'],
+                ['Leilão de Arte', 'Leilão Automático(Ultima Peça)', 'Leilões Modelly(Leilão com participação de outros artistas, quando a Plataforma disponibilizar)', 'Leilões Modelly(Leilão com participação de outros artistas, quando a Plataforma disponibilizar)/Leilões Pessoais', 'Leilões Pessoais Exclusivos'],
+                ['Visão Geral de Vendas (Dashboard)', 'Relatórios mensais de vendas', 'Relatórios semanais de vendas', 'Relatórios diários de vendas', 'Relatórios em tempo real'],
+                ['Gerenciamento de Estoque (Dashboard)', 'Rastreamento básico de estoque', 'Rastreamento avançado de estoque', 'Rastreamento avançado de estoque', 'Rastreamento avançado de estoque e alertas automáticas'],
+                ['Sugestões de Empreendedorismo (Dashboard)', 'Artigos e dicas básicas de empreendedorismo', 'Acesso a workshops gravados', 'Acesso a workshops ao vivo e gravados', 'Acesso a workshops ao vivo, gravados e consultorias'],
+                ['Análise de Público-Alvo (Dashboard)', '-', 'Análise básica de público-alvo', 'Análise avançada de público-alvo', 'Análise aprofundada e segmentação detalhada do público-alvo'],
+                ['Ferramentas de Marketing (Dashboard)', 'Templates básicos de marketing', 'Templates avançados e sugestões de campanhas', 'Templates avançados, sugestões de campanhas e análise', 'Ferramentas de automação de marketing e análise detalhada'],
+                ['Calendário de Eventos (Dashboard)', 'Notificações de eventos relevantes', 'Acesso a calendário personalizado de eventos', 'Acesso a calendário personalizado de eventos e lembretes', 'Acesso completo ao calendário, lembretes e integração com outras ferramentas'],
+                ['Suporte ao Cliente (Dashboard)', 'Suporte via e-mail', 'Suporte via e-mail e chat', 'Suporte via e-mail, chat e fórum exclusivo', 'Suporte prioritário via e-mail, chat, fórum exclusivo e consultoria personalizada']
                 // Adicione mais linhas conforme necessário
+            ]
+        },
+           {
+            title: 'Planos Modelly - Consumidores',
+            headers: ['Funcionalidades', 'Admirador', 'Entusiasta', 'Colecionador'],
+            rows: [
+                ['Acesso a Conteúdos Exclusivos', 'Notícias e atualizações sobre artistas e eventos', 'Notícias, atualizações e entrevistas exclusivas com artistas', 'Notícias, entrevistas, e acesso a bastidores de eventos e processos de criação'],
+                ['Descontos em Compras', 'Descontos de até 5% em produtos selecionados', 'Descontos de até 10% em todos os produtos', 'Descontos de até 15% e acesso a promoções exclusivas'],
+                ['Acesso a Eventos', 'Acesso prioritário a eventos online gratuitos', 'Acesso prioritário e descontos em eventos pagos', 'Acesso VIP a todos os eventos, incluindo eventos exclusivos'],
+                ['Ferramentas de Interação', 'Chat básico com vendedores', 'Chat avançado com histórico de conversas', 'Chat avançado e agendamento de reuniões virtuais com artistas'],
+                ['Personalização de Experiência', 'Recomendações personalizadas de produtos', 'Recomendações avançadas e listas de desejos', 'Recomendações avançadas, listas de desejos, e consultoria de curadoria personalizada']
             ]
         },
         {
@@ -73,14 +99,17 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
         {
-               title: 'Visão Futura',
-               headers: ['Funcionalidade','Descrição'], // Adicione mais headers conforme necessário
-               rows: [
-                   ['',''],
-                   ['','']
-                   // Adicione mais linhas conforme necessário
-               ]
-           }
+            title: 'Visão Futura',
+            headers: ['Funcionalidade', 'Descrição'], // Adicione mais headers conforme necessário
+            rows: [
+                ['Seção Para venda de Áudio', 'Uma plataforma dedicada para artistas venderem seus áudios, incluindo beats de rap, músicas, podcasts, e outros formatos de áudio. Os compradores poderão ouvir trechos, comprar direitos de uso, e baixar os arquivos diretamente da plataforma.'],
+                ['Seção Para venda de Arte Digital', 'Um espaço exclusivo para artistas digitais exibirem e venderem suas obras, como ilustrações, gráficos, animações e NFTs. Os compradores terão a possibilidade de visualizar, adquirir direitos de uso, e baixar as peças em alta resolução, com opções de certificação de autenticidade.'],
+                ['Feira de Arte 3D', 'Um espaço exclusivo para artistas digitais exibirem e venderem suas obras, como ilustrações, gráficos, animações e NFTs. Os compradores terão a possibilidade de visualizar, adquirir direitos de uso, e baixar as peças em alta resolução, com opções de certificação de autenticidade.'],
+                ['Feira de Arte 3D', 'Um espaço exclusivo para artistas digitais exibirem e venderem suas obras, como ilustrações, gráficos, animações e NFTs. Os compradores terão a possibilidade de visualizar, adquirir direitos de uso, e baixar as peças em alta resolução, com opções de certificação de autenticidade.']
+                // Adicione mais linhas conforme necessário
+            ]
+        }
+        
 
         
     ];
