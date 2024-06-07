@@ -21,16 +21,65 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'Modelly - Desenvolvedores', //MEMBROS MODELLY
             headers: ['Equipe', 'Funções', 'Contrato', 'Salário','Salário Anual'], // Adicione mais headers conforme necessário
             rows: [
-                ['Pamela Miranda(Pamy)', 'Product Owner - UI Designer/Desenvolvedora Front End','PJ','R$5.554',''],
-                ['Gabriel Santos(Gabs)', 'Scrum Master - Desenvolvedor Full-Stack','PJ','R$5.554'],
-                ['Gabriel Valentin(Redd)', 'Financeiro - UX Designer/ Desenvolvedor Full-Stack','PJ','R$5.554'],
-                ['Matheus Morgado(Matt)', 'Desenvolvedor Back End','PJ','R$5.554'],
-                ['Giovanna Tavares(Gio)', 'UI Designer/Desenvolvedora de Banco de Dados','PJ','R$5.554'],
-                ['Ben-Hur(Ben)', 'Desenvolvedor Back End','PJ','R$5.554'],
-                ['João Lucas(Guiado por Deus)', 'Desenvolvedor Back End','PJ','R$5.554'],
-                ['Jhonnatan Gomes(Jhow)', 'Desenvolvedor Front End','PJ','R$5.554']
+                ['Pamela Miranda(Pamy)', 'Product Owner - UI Designer/Desenvolvedora Front End','PJ','R$1.554','18.648'],
+                ['Gabriel Santos(Gabs)', 'Scrum Master - Desenvolvedor Full-Stack','PJ','R$1.554','18.648'],
+                ['Gabriel Valentin(Redd)', 'Financeiro - UX Designer/ Desenvolvedor Full-Stack','PJ','R$1.554','18.648'],
+                ['Matheus Morgado(Matt)', 'Desenvolvedor Back End','PJ','R$1.554','18.648'],
+                ['Giovanna Tavares(Gio)', 'UI Designer/Desenvolvedora de Banco de Dados','PJ','R$1.554','18.648'],
+                ['Ben-Hur(Ben)', 'Desenvolvedor Back End','PJ','R$1.554','18.648'],
+                ['João Lucas(Guiado por Deus)', 'Desenvolvedor Back End','PJ','R$1.554','18.648'],
+                ['Jhonnatan Gomes(Jhow)', 'Desenvolvedor Front End','PJ','R$1.554','18.648'],
+                ['', '','','Total: ','R$149.184,00']
             ]
         },
+        {
+               title: 'Modelly - Custo Funcionários',
+               headers: ['Função', 'Quantidade', 'Contrato', 'Salário', 'Salario Anual'], // Adicione mais headers conforme necessário
+               rows: [
+                   ['Equipe de Marketing', 1,'PJ','R$1502,00','18.024'],
+                   ['Equipe de Suporte', 2, 'PJ', 'R$1502,00','18.024'],
+                   ['','','','Total:','R$54.072']
+                   // Adicione mais linhas conforme necessário
+               ]
+           },
+           {
+                  title: 'Modelly - Custo Recursos',
+                  headers: ['Auxilio', 'Quantidades', 'Valor', 'Total'], // Adicione mais headers conforme necessário
+                  rows: [
+                      ['Notebook Lenovo AMD Ryzen 5-7520U 8GB 256GB SSD Tela HD 15.6” Linux Ideapad', '8', 'R$2069,10', '16.552,8'],
+                      ['Auxilio Educação(Faculdade/Curso)', '8','R$129,00(Mensal)/R$1.548,00(Anual)','R$1.032,00(Mensal)/R$12.384(Anual)'],
+                      ['', '','Total','R$28.936,80']
+                      // Adicione mais linhas conforme necessário
+                  ]
+              },
+              {
+                     title: 'Modelly - Custo Recursos - Softwares e Web',
+                     headers: ['Tecnologias', 'Quantidades', 'Valor Mensal', 'Valor Anual'], // Adicione mais headers conforme necessário
+                     rows: [
+                        ['Pacote Office', '8', 'R$36,00', 'R$359,00'],
+                        ['Dominio(Amazon)', '1', 'R$10,99', 'R$131,88'],
+                        ['Serviços AWS', '1', '-', 'R$121,00'],
+                        ['Figma Professional', '1', 'R$62,95', 'R$755,40'],
+                        ['Adobe Creative', '1', 'R$139,00', 'R$1.668,00'],
+                        ['', '', 'Total', 'R$16.091,40']
+
+                         // Adicione mais linhas conforme necessário
+                     ]
+                 },
+
+                 {
+                    title: 'Custos Totais',
+                    headers: ['Item', 'Custo', '%'], // Adicione mais headers conforme necessário
+                    rows: [
+                        ['Desenvolvedores', 'R$149.184,00', '60,08%'],
+                        ['Custo Funcionários', 'R$54.072,00', '21,77%'],
+                        ['Custo Recursos', 'R$28.936,80', '11,65%'],
+                        ['Custo Recursos - Softwares e Web', 'R$16.091,40', '6,48%'],
+                        ['Total', 'R$248.284,20', '100%']
+                        // Adicione mais linhas conforme necessário
+                    ]
+                },
+                
         
         {
             title: 'Proposta de Valor',
@@ -69,7 +118,6 @@ document.addEventListener('DOMContentLoaded', () => {
             rows: [
                 ['Feira de Arte(Stand Espaços):', '15 Espaços no Stand', '50 Espaços no Stand', '100 espaços no Stand', '200 Espaços no Stand'],
                 ['Oficinas de Arte', 'Não', 'Oficinas Gravadas(Período determinado)', 'Oficinas gravadas/Oficinas ao vivo(Período Determinado)', 'Oficinas gravadas/ao vivo(vitalício)'],
-                ['Leilão de Arte', 'Leilão Automático(Ultima Peça)', 'Leilões Modelly(Leilão com participação de outros artistas, quando a Plataforma disponibilizar)', 'Leilões Modelly(Leilão com participação de outros artistas, quando a Plataforma disponibilizar)/Leilões Pessoais', 'Leilões Pessoais Exclusivos'],
                 ['Visão Geral de Vendas (Dashboard)', 'Relatórios mensais de vendas', 'Relatórios semanais de vendas', 'Relatórios diários de vendas', 'Relatórios em tempo real'],
                 ['Gerenciamento de Estoque (Dashboard)', 'Rastreamento básico de estoque', 'Rastreamento avançado de estoque', 'Rastreamento avançado de estoque', 'Rastreamento avançado de estoque e alertas automáticas'],
                 ['Sugestões de Empreendedorismo (Dashboard)', 'Artigos e dicas básicas de empreendedorismo', 'Acesso a workshops gravados', 'Acesso a workshops ao vivo e gravados', 'Acesso a workshops ao vivo, gravados e consultorias'],
@@ -105,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 ['Seção Para venda de Áudio', 'Uma plataforma dedicada para artistas venderem seus áudios, incluindo beats de rap, músicas, podcasts, e outros formatos de áudio. Os compradores poderão ouvir trechos, comprar direitos de uso, e baixar os arquivos diretamente da plataforma.'],
                 ['Seção Para venda de Arte Digital', 'Um espaço exclusivo para artistas digitais exibirem e venderem suas obras, como ilustrações, gráficos, animações e NFTs. Os compradores terão a possibilidade de visualizar, adquirir direitos de uso, e baixar as peças em alta resolução, com opções de certificação de autenticidade.'],
                 ['Feira de Arte 3D', 'Um espaço exclusivo para artistas digitais exibirem e venderem suas obras, como ilustrações, gráficos, animações e NFTs. Os compradores terão a possibilidade de visualizar, adquirir direitos de uso, e baixar as peças em alta resolução, com opções de certificação de autenticidade.'],
-                ['Feira de Arte 3D', 'Um espaço exclusivo para artistas digitais exibirem e venderem suas obras, como ilustrações, gráficos, animações e NFTs. Os compradores terão a possibilidade de visualizar, adquirir direitos de uso, e baixar as peças em alta resolução, com opções de certificação de autenticidade.']
+                ['Leilão de Arte', '']
                 // Adicione mais linhas conforme necessário
             ]
         }
