@@ -109,25 +109,30 @@ document.addEventListener('DOMContentLoaded', () => {
                 ['Dashboard', 'Ferramentas de gestão de negócios que fornecem insights e análises sobre o desempenho das vendas, acompanhamento de estoque, e gestão financeira. Inclui sugestões de empreendedorismo personalizadas para ajudar os artistas a desenvolverem seus negócios, com funcionalidades que aumentam de acordo com cada plano de assinatura.'],
                 ['Eventos', 'Divulgação de eventos físicos e digitais, incluindo feiras de arte, exposições, e workshops. Estes eventos são promovidos na plataforma para atrair compradores e incentivar a participação dos artistas, criando oportunidades de networking e vendas.'],
                 ['Oficinas de Arte (Mentoria)', 'Oficinas de arte e mentorias oferecidas por artistas experientes. As opções variam desde oficinas gravadas disponíveis por um período determinado até oficinas ao vivo que oferecem interação direta. Os artistas podem melhorar suas habilidades e aprender novas técnicas, com acesso vitalício nos planos superiores.'],
-                ['Leilão de Arte', 'Leilões automáticos para a última peça de um artista, além de leilões organizados pela plataforma com a participação de múltiplos artistas. Os planos superiores incluem a opção de organizar leilões pessoais, oferecendo uma plataforma exclusiva para destacar e vender obras de arte com maior controle e personalização.']
             ]
         },
         {
             title: 'Planos Modelly - Artistas',
-            headers: ['Funcionalidades', 'Papel(Gratuito)', 'Pincel(Básico)', 'Bordado(Intermediário)', 'Escultura(Premium)'], // Adicione mais headers conforme necessário
+            headers: ['Funcionalidades', 'Papel (Gratuito)', 'Pincel (Básico)', 'Bordado (Intermediário)', 'Escultura (Premium)'], // Adicione mais headers conforme necessário
             rows: [
-                ['Feira de Arte(Stand Espaços):', '15 Espaços no Stand', '50 Espaços no Stand', '100 espaços no Stand', '200 Espaços no Stand'],
-                ['Oficinas de Arte', 'Não', 'Oficinas Gravadas(Período determinado)', 'Oficinas gravadas/Oficinas ao vivo(Período Determinado)', 'Oficinas gravadas/ao vivo(vitalício)'],
-                ['Visão Geral de Vendas (Dashboard)', 'Relatórios mensais de vendas', 'Relatórios semanais de vendas', 'Relatórios diários de vendas', 'Relatórios em tempo real'],
-                ['Gerenciamento de Estoque (Dashboard)', 'Rastreamento básico de estoque', 'Rastreamento avançado de estoque', 'Rastreamento avançado de estoque', 'Rastreamento avançado de estoque e alertas automáticas'],
-                ['Sugestões de Empreendedorismo (Dashboard)', 'Artigos e dicas básicas de empreendedorismo', 'Acesso a workshops gravados', 'Acesso a workshops ao vivo e gravados', 'Acesso a workshops ao vivo, gravados e consultorias'],
-                ['Análise de Público-Alvo (Dashboard)', '-', 'Análise básica de público-alvo', 'Análise avançada de público-alvo', 'Análise aprofundada e segmentação detalhada do público-alvo'],
-                ['Ferramentas de Marketing (Dashboard)', 'Templates básicos de marketing', 'Templates avançados e sugestões de campanhas', 'Templates avançados, sugestões de campanhas e análise', 'Ferramentas de automação de marketing e análise detalhada'],
-                ['Calendário de Eventos (Dashboard)', 'Notificações de eventos relevantes', 'Acesso a calendário personalizado de eventos', 'Acesso a calendário personalizado de eventos e lembretes', 'Acesso completo ao calendário, lembretes e integração com outras ferramentas'],
-                ['Suporte ao Cliente (Dashboard)', 'Suporte via e-mail', 'Suporte via e-mail e chat', 'Suporte via e-mail, chat e fórum exclusivo', 'Suporte prioritário via e-mail, chat, fórum exclusivo e consultoria personalizada']
+                ['Feira de Arte (Stand Espaços):', '15 Espaços no Stand', '50 Espaços no Stand', '100 Espaços no Stand', '200 Espaços no Stand'],
+                ['Oficinas de Arte', '-', 'Oficinas Gravadas (Período determinado)', 'Oficinas gravadas/Oficinas ao vivo (Período Determinado)', 'Oficinas gravadas/ao vivo (Vitalício)'],
+                ['Funcionalidades do Dashboard', 
+                    'Relatórios mensais de vendas, Artigos e dicas básicas de empreendedorismo, Templates básicos de marketing, Notificações de eventos relevantes, Suporte via e-mail', 
+                    'Relatórios semanais de vendas, Rastreamento básico de estoque, Acesso a workshops gravados, Templates avançados e sugestões de campanhas, Análise básica de público-alvo, Acesso a calendário personalizado de eventos, Suporte via e-mail e chat', 
+                    'Relatórios diários de vendas, Rastreamento básico de estoque, Acesso a workshops ao vivo e gravados, Templates avançados, sugestões de campanhas e análise, Análise avançada de público-alvo, Acesso a calendário personalizado de eventos e lembretes, Suporte via e-mail, chat e fórum exclusivo', 
+                    'Relatórios em tempo real, Rastreamento avançado de estoque e alertas automáticas, Acesso a workshops ao vivo, gravados e consultorias, Ferramentas de automação de marketing e análise detalhada, Análise aprofundada e segmentação detalhada do público-alvo, Acesso completo ao calendário, lembretes e integração com outras ferramentas, Suporte prioritário via e-mail, chat, fórum exclusivo e consultoria personalizada'
+                ],
+                ['Montagem de Portfólio e Personalização Visual',
+                    'Montagem básica de portfólio', 
+                    'Portfólio com opções básicas de personalização visual', 
+                    'Portfólio com opções avançadas de personalização visual', 
+                    'Portfólio com personalização visual completa e recursos adicionais'
+                ]
                 // Adicione mais linhas conforme necessário
             ]
-        },
+        }
+        ,
            {
             title: 'Planos Modelly - Consumidores',
             headers: ['Funcionalidades', 'Admirador', 'Entusiasta', 'Colecionador'],
@@ -152,8 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
             rows: [
                 ['Seção Para venda de Áudio', 'Uma plataforma dedicada para artistas venderem seus áudios, incluindo beats de rap, músicas, podcasts, e outros formatos de áudio. Os compradores poderão ouvir trechos, comprar direitos de uso, e baixar os arquivos diretamente da plataforma.'],
                 ['Seção Para venda de Arte Digital', 'Um espaço exclusivo para artistas digitais exibirem e venderem suas obras, como ilustrações, gráficos, animações e NFTs. Os compradores terão a possibilidade de visualizar, adquirir direitos de uso, e baixar as peças em alta resolução, com opções de certificação de autenticidade.'],
-                ['Feira de Arte 3D', 'Um espaço exclusivo para artistas digitais exibirem e venderem suas obras, como ilustrações, gráficos, animações e NFTs. Os compradores terão a possibilidade de visualizar, adquirir direitos de uso, e baixar as peças em alta resolução, com opções de certificação de autenticidade.'],
-                ['Leilão de Arte', '']
+                ['Leilão de Arte', 'Leilões automáticos para a última peça de um artista, além de leilões organizados pela plataforma com a participação de múltiplos artistas. Os planos superiores incluem a opção de organizar leilões pessoais, oferecendo uma plataforma exclusiva para destacar e vender obras de arte com maior controle e personalização.']
                 // Adicione mais linhas conforme necessário
             ]
         }
