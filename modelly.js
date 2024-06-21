@@ -24,12 +24,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 ['Pamela Miranda(Pamy)', 'Product Owner - UI Designer/Desenvolvedora Front End','PJ','R$1.554','18.648'],
                 ['Gabriel Santos(Gabs)', 'Scrum Master - Desenvolvedor Full-Stack','PJ','R$1.554','18.648'],
                 ['Gabriel Valentin(Redd)', 'Financeiro - UX Designer/ Desenvolvedor Full-Stack','PJ','R$1.554','18.648'],
-                ['Matheus Morgado(Matt)', 'Desenvolvedor Back End','PJ','R$1.554','18.648'],
+                ['Matheus Morgado(Matt)', 'Desenvolvedor Full Stack','PJ','R$1.554','18.648'],
                 ['Giovanna Tavares(Gio)', 'UI Designer/Desenvolvedora de Banco de Dados','PJ','R$1.554','18.648'],
-                ['Ben-Hur(Ben)', 'Desenvolvedor Back End','PJ','R$1.554','18.648'],
-                ['João Lucas(Guiado por Deus)', 'Desenvolvedor Back End','PJ','R$1.554','18.648'],
+                ['João Lucas(Guiado por Deus)', 'Desenvolvedor Front End','PJ','R$1.554','18.648'],
                 ['Jhonnatan Gomes(Jhow)', 'Desenvolvedor Front End','PJ','R$1.554','18.648'],
-                ['', '','','Total: ','R$149.184,00']
+                ['', '','','Total: ','R$130.536,00']
             ]
         },
         {
@@ -43,25 +42,25 @@ document.addEventListener('DOMContentLoaded', () => {
                ]
            },
            {
-                  title: 'Modelly - Custo Recursos',
-                  headers: ['Auxilio', 'Quantidades', 'Valor', 'Total'], // Adicione mais headers conforme necessário
-                  rows: [
-                      ['Notebook Lenovo AMD Ryzen 5-7520U 8GB 256GB SSD Tela HD 15.6” Linux Ideapad', '8', 'R$2069,10', '16.552,8'],
-                      ['Auxilio Educação(Faculdade/Curso)', '8','R$129,00(Mensal)/R$1.548,00(Anual)','R$1.032,00(Mensal)/R$12.384(Anual)'],
-                      ['', '','Total','R$28.936,80']
-                      // Adicione mais linhas conforme necessário
-                  ]
-              },
+            title: 'Modelly - Custo Recursos',
+            headers: ['Auxilio', 'Quantidades', 'Valor', 'Total'], // Adicione mais headers conforme necessário
+            rows: [
+                ['Notebook Lenovo AMD Ryzen 5-7520U 8GB 256GB SSD Tela HD 15.6” Linux Ideapad', '7', 'R$2.069,10', 'R$14.483,70'],
+                ['Auxílio Educação (Faculdade/Curso)', '7', 'R$129,00 (Mensal)/R$1.548,00 (Anual)', 'R$903,00 (Mensal)/R$10.836,00 (Anual)'],
+                ['', '', 'Total', 'R$25.319,70']
+                // Adicione mais linhas conforme necessário
+            ]
+        },
               {
                      title: 'Modelly - Custo Recursos - Softwares e Web',
                      headers: ['Tecnologias', 'Quantidades', 'Valor Mensal', 'Valor Anual'], // Adicione mais headers conforme necessário
                      rows: [
-                        ['Pacote Office', '8', 'R$36,00', 'R$359,00'],
+                        ['Pacote Office', '7', 'R$36,00', 'R$359,00'],
                         ['Dominio(Amazon)', '1', 'R$10,99', 'R$131,88'],
                         ['Serviços AWS', '1', '-', 'R$121,00'],
                         ['Figma Professional', '1', 'R$62,95', 'R$755,40'],
                         ['Adobe Creative', '1', 'R$139,00', 'R$1.668,00'],
-                        ['', '', 'Total', 'R$16.091,40']
+                        ['', '', 'Total', 'R$15.732,40']
 
                          // Adicione mais linhas conforme necessário
                      ]
@@ -71,14 +70,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     title: 'Custos Totais',
                     headers: ['Item', 'Custo', '%'], // Adicione mais headers conforme necessário
                     rows: [
-                        ['Desenvolvedores', 'R$149.184,00', '60,08%'],
-                        ['Custo Funcionários', 'R$54.072,00', '21,77%'],
-                        ['Custo Recursos', 'R$28.936,80', '11,65%'],
-                        ['Custo Recursos - Softwares e Web', 'R$16.091,40', '6,48%'],
-                        ['Total', 'R$248.284,20', '100%']
+                        ['Desenvolvedores', 'R$130.536,00', '57.85%'],
+                        ['Custo Funcionários', 'R$54.072,00', '23.97%'],
+                        ['Custo Recursos', 'R$25.319,70', '11.22%'],
+                        ['Custo Recursos - Softwares e Web', 'R$15.732,40', '6.97%'],
+                        ['Total', 'R$225.660,10', '100%']
                         // Adicione mais linhas conforme necessário
                     ]
                 },
+                
                 
         
         {
@@ -107,8 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 ['Taxação por Venda', 'Cobrança de uma porcentagem de 7% sobre cada venda realizada na plataforma. Além disso, uma taxa de transação de 1% sobre o valor total da transação é aplicada, garantindo um fluxo de receita constante para a manutenção e melhoria dos serviços da plataforma.'],
                 ['Adsense (Anúncios)', 'Cobrança por Custo por Clique (CPC) para anúncios baseados em imagem ou Custo por Mil Impressões (CPM) para anúncios em vídeo. Essa funcionalidade permite aos artistas promoverem seus produtos dentro da plataforma, aumentando a visibilidade e as vendas.'],
                 ['Dashboard', 'Ferramentas de gestão de negócios que fornecem insights e análises sobre o desempenho das vendas, acompanhamento de estoque, e gestão financeira. Inclui sugestões de empreendedorismo personalizadas para ajudar os artistas a desenvolverem seus negócios, com funcionalidades que aumentam de acordo com cada plano de assinatura.'],
-                ['Eventos', 'Divulgação de eventos físicos e digitais, incluindo feiras de arte, exposições, e workshops. Estes eventos são promovidos na plataforma para atrair compradores e incentivar a participação dos artistas, criando oportunidades de networking e vendas.'],
-                ['Oficinas de Arte (Mentoria)', 'Oficinas de arte e mentorias oferecidas por artistas experientes. As opções variam desde oficinas gravadas disponíveis por um período determinado até oficinas ao vivo que oferecem interação direta. Os artistas podem melhorar suas habilidades e aprender novas técnicas, com acesso vitalício nos planos superiores.'],
+                ['Eventos', 'Divulgação de eventos físicos e digitais, incluindo feiras de arte, exposições, e workshops. Estes eventos são promovidos na plataforma para atrair compradores e incentivar a participação dos artistas, criando oportunidades de networking e vendas.']
             ]
         },
         {
@@ -145,8 +144,9 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
         {
-            title:  'Modelo de Negócio', 
-            headers: ['O que é a Modelly'], // Adicione mais headers conforme necessário
+            title:  'Modelo de Negócio',
+            headers: ['O que é a Modelly'],
+             // Adicione mais headers conforme necessário
             rows: [ ['O que é a Modelly? Imagine um universo onde artistas e amantes da arte se conectam de forma fluida e enriquecedora. Um espaço virtual onde a criatividade encontra seu público, impulsionando carreiras e democratizando o acesso à cultura. Essa é a proposta da Modelly, uma iniciativa inovadora que reúne o melhor da tecnologia para transformar a maneira como a arte é vivenciada. Para Artistas: Seu Atelier Online. Crie sua galeria imersiva, exponha e venda suas obras para o mundo, gerencie sua loja online com ferramentas intuitivas, acompanhe vendas e dados de performance, e impulsione sua carreira artística com nosso apoio.Para Amantes da Arte: Um Mundo de Possibilidades. Descubra obras originais e autênticas que se encaixam em seus gostos e orçamento. Conecte-se com os artistas, personalize sua experiência de compra, receba curadoria personalizada e explore a diversidade da arte brasileira e internacional.Mais do que uma Plataforma: Desenvolvimento Profissional. Aprimore suas habilidades artísticas e de gestão de negócios com cursos, workshops e conteúdos exclusivos.Comunidade Vibrante: Conecte-se com outros artistas, troque experiências, colabore em projetos e participe de eventos online e presenciais.Algoritmos Democráticos: Sua arte terá visibilidade justa e igualitária, sem necessidade de pagar por destaque. A plataforma valoriza a diversidade e promove a inclusão.Acessibilidade para Todos: Plataforma intuitiva, sem complicações, para que você possa criar, comprar e se conectar com a arte de forma simples e prazerosa.Juntos, Construímos um Futuro Radiante:Trabalho Decente e Crescimento Econômico: Geração de renda para artistas, formalização do trabalho e democratização do acesso ao mercado de arte. Indústria, Inovação e Infraestrutura:* Plataforma inovadora que utiliza tecnologia para conectar pessoas e promover o desenvolvimento cultural. Redução das Desigualdades: Acesso democrático à arte e à cultura, valorização da diversidade e combate à exclusão social. Cidades e Comunidades Sustentáveis:*Promoção da cultura local, valorização do patrimônio cultural e desenvolvimento de cidades criativas e inovadoras.']
                  // Adicione mais linhas conforme necessário
             ]
@@ -157,7 +157,9 @@ document.addEventListener('DOMContentLoaded', () => {
             rows: [
                 ['Seção Para venda de Áudio', 'Uma plataforma dedicada para artistas venderem seus áudios, incluindo beats de rap, músicas, podcasts, e outros formatos de áudio. Os compradores poderão ouvir trechos, comprar direitos de uso, e baixar os arquivos diretamente da plataforma.'],
                 ['Seção Para venda de Arte Digital', 'Um espaço exclusivo para artistas digitais exibirem e venderem suas obras, como ilustrações, gráficos, animações e NFTs. Os compradores terão a possibilidade de visualizar, adquirir direitos de uso, e baixar as peças em alta resolução, com opções de certificação de autenticidade.'],
-                ['Leilão de Arte', 'Leilões automáticos para a última peça de um artista, além de leilões organizados pela plataforma com a participação de múltiplos artistas. Os planos superiores incluem a opção de organizar leilões pessoais, oferecendo uma plataforma exclusiva para destacar e vender obras de arte com maior controle e personalização.']
+                ['Leilão de Arte', 'Leilões automáticos para a última peça de um artista, além de leilões organizados pela plataforma com a participação de múltiplos artistas. Os planos superiores incluem a opção de organizar leilões pessoais, oferecendo uma plataforma exclusiva para destacar e vender obras de arte com maior controle e personalização.'],
+                ['Oficinas de Arte (Mentoria)', 'Oficinas de arte e mentorias oferecidas por artistas experientes. As opções variam desde oficinas gravadas disponíveis por um período determinado até oficinas ao vivo que oferecem interação direta. Os artistas podem melhorar suas habilidades e aprender novas técnicas, com acesso vitalício nos planos superiores.']
+ 
                 // Adicione mais linhas conforme necessário
             ]
         }
