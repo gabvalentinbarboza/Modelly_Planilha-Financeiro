@@ -112,10 +112,9 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             title: 'Planos Modelly - Artistas',
-            headers: ['Funcionalidades', 'Papel (Gratuito)', 'Pincel (Básico)', 'Bordado (Intermediário)', 'Escultura (Premium)'], // Adicione mais headers conforme necessário
+            headers: ['Funcionalidades', 'Papel (Gratuito)', 'Pincel (Básico) (R$ 29,90/mês)', 'Bordado (Intermediário) (R$ 59,90/mês)', 'Escultura (Premium) (R$ 99,90/mês)'],
             rows: [
                 ['Feira de Arte (Stand Espaços):', '15 Espaços no Stand', '50 Espaços no Stand', '100 Espaços no Stand', '200 Espaços no Stand'],
-                ['Oficinas de Arte', '-', 'Oficinas Gravadas (Período determinado)', 'Oficinas gravadas/Oficinas ao vivo (Período Determinado)', 'Oficinas gravadas/ao vivo (Vitalício)'],
                 ['Funcionalidades do Dashboard', 
                     'Relatórios mensais de vendas, Artigos e dicas básicas de empreendedorismo, Templates básicos de marketing, Notificações de eventos relevantes, Suporte via e-mail', 
                     'Relatórios semanais de vendas, Rastreamento básico de estoque, Acesso a workshops gravados, Templates avançados e sugestões de campanhas, Análise básica de público-alvo, Acesso a calendário personalizado de eventos, Suporte via e-mail e chat', 
@@ -134,8 +133,10 @@ document.addEventListener('DOMContentLoaded', () => {
         ,
            {
             title: 'Planos Modelly - Consumidores',
-            headers: ['Funcionalidades', 'Admirador', 'Entusiasta', 'Colecionador'],
+            headers: ['Funcionalidades', 'Admirador (Gratuito)', 'Entusiasta (Intermediário) (R$ 19,90/mês)', 'Colecionador (Premium) (R$ 39,90/mês)'],
+
             rows: [
+
                 ['Acesso a Conteúdos Exclusivos', 'Notícias e atualizações sobre artistas e eventos', 'Notícias, atualizações e entrevistas exclusivas com artistas', 'Notícias, entrevistas, e acesso a bastidores de eventos e processos de criação'],
                 ['Descontos em Compras', 'Descontos de até 5% em produtos selecionados', 'Descontos de até 10% em todos os produtos', 'Descontos de até 15% e acesso a promoções exclusivas'],
                 ['Acesso a Eventos', 'Acesso prioritário a eventos online gratuitos', 'Acesso prioritário e descontos em eventos pagos', 'Acesso VIP a todos os eventos, incluindo eventos exclusivos'],
